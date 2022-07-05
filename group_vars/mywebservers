@@ -1,3 +1,5 @@
 
 mywebpackinstallonubuntu: apache2
 mywebpackinstallonRedHat: httpd
+myjavapackinstallonubuntu: openjdk-8-jre
+myjavapackinstallonRedHat: java-1.8.0-openjdk

@@ -1,0 +1,11 @@
+---
+- hosts: 172.31.25.220
+  become: yes
+  vars:
+   myvars01: git
+   myvars02: tree
+   myvars03: wget
+  tasks:
+   - name: i want to display
+     debug:
+       msg: git 
